@@ -13,5 +13,5 @@ export function css( done ) {
 }
 
 export function dev() {
-    watch('assets/scss/app.scss', css)
+    watch('assets/scss/**/*.scss', css)
 }
